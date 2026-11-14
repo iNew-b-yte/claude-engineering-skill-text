@@ -1,0 +1,37 @@
+{
+  "name": "claude-engineering-skills",
+  "version": "1.0.0",
+  "description": "17 software-engineering Agent Skills for Claude Code: architecture, system design, algorithms, API design, backend, frontend, database, security, testing, debugging, performance, refactoring, code review, git and a pre-ship validation gate.",
+  "keywords": [
+    "claude",
+    "claude-code",
+    "claude-skills",
+    "agent-skills",
+    "skills",
+    "anthropic",
+    "ai",
+    "software-engineering",
+    "system-design",
+    "code-review"
+  ],
+  "license": "MIT",
+  "author": "Naveen Kumar",
+  "main": "index.js",
+  "bin": {
+    "claude-engineering-skills": "bin/cli.js"
+  },
+  "files": [
+    "bin/",
+    "skills/",
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node bin/cli.js list",
+    "prepublishOnly": "node bin/cli.js list"
+  },
+  "engines": {
+    "node": ">=18.17"
+  }
+}
